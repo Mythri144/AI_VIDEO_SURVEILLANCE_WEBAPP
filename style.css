@@ -1,0 +1,32 @@
+body{
+    font-family: 'Sail', cursive;
+    background-size: cover;
+}
+
+.header{
+    width: 100%;
+    margin: 0px;
+    font-size: 30px;
+}
+
+#start_btn, #no_objects, #status{
+    font-size: 24px;
+}
+
+.footer{
+    background-color: rgb(183, 211, 236);
+    color: rgb(28, 51, 71);
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 3;
+    position: fixed;
+    font-size: 23px;
+}
+
+canvas{
+    border: 2px solid rgb(184, 214, 240);
+    border-radius: 12px;
+    box-shadow: rgb(42, 100, 151);
+    margin-top: 120px;
+}
